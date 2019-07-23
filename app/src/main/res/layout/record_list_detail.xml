@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="wrap_content">
+
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/dealerCard_7"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/dealerCard_6"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:id="@+id/dealerCard_2"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@+id/dealerCard_1" android:layout_marginStart="8dp"
+            tools:srcCompat="@drawable/back"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:id="@+id/dealerCard_3"
+            app:layout_constraintStart_toEndOf="@+id/dealerCard_2" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp" android:layout_marginStart="8dp" tools:srcCompat="@drawable/back"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/dealerCard_4" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/dealerCard_3" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="8dp"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/dealerCard_5"
+            app:layout_constraintStart_toEndOf="@+id/dealerCard_4" android:layout_marginStart="8dp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/dealerCard_6"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toEndOf="@+id/dealerCard_5"/>
+    <TextView
+            android:text="Dealer: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dealer_record_label"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="32dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp"/>
+    <TextView
+            android:text="You:    "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/player_record_label"
+            android:layout_marginTop="50dp"
+            app:layout_constraintTop_toBottomOf="@+id/dealer_record_label"
+            app:layout_constraintStart_toStartOf="@+id/dealer_record_label"
+            android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="@+id/dealer_record_label"
+    />
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp"
+            android:id="@+id/dealerCard_1"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="8dp" tools:srcCompat="@drawable/back"
+            app:layout_constraintStart_toEndOf="@+id/dealer_record_label" android:layout_marginStart="8dp"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/playerCard_1"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/dealerCard_1"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/player_record_label"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/playerCard_"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/dealerCard_2"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/playerCard_1"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/playerCard_2"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/dealerCard_3"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/playerCard_"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/playerCard_3"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/dealerCard_4"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/playerCard_2"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/playerCard_4"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/dealerCard_5"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/playerCard_3"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/playerCard_5"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/dealerCard_6"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/playerCard_4"/>
+    <ImageView
+            android:layout_width="40dp"
+            android:layout_height="60dp" tools:srcCompat="@drawable/back"
+            android:id="@+id/playerCard_6"
+            android:layout_marginTop="15dp" app:layout_constraintTop_toBottomOf="@+id/dealerCard_7"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toEndOf="@+id/playerCard_5"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/game_result_tv" android:layout_marginTop="9dp"
+            app:layout_constraintTop_toBottomOf="@+id/playerCard_2" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:textSize="24sp"/>
+</android.support.constraint.ConstraintLayout>
